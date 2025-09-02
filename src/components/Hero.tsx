@@ -8,8 +8,8 @@ export default function Hero() {
    
     <section className="hero">
       <div className="hero__content container">
-        <h1 className="hero__title">مرحبًا بك في Microsoft</h1>
-        <p className="hero__subtitle">
+        <h1 >مرحبًا بك في Microsoft</h1>
+        <p >
           اكتشف Windows وSurface وXbox وخدمات السحابة والمزيد
         </p>
         <div >
