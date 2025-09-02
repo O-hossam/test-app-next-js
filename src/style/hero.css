@@ -16,14 +16,14 @@
   padding: var(--spacing-lg);
   line-height: 55px;
 }
-.hero__title {
+/* .hero__title {
   font-size: var(--fs-lg);
   margin-bottom: var(--spacing-sm);
 }
 .hero__subtitle {
   font-size: var(--fs-md);
   margin-bottom: var(--spacing-md);
-}
+} */
 
 .icons {
   margin-left: 10px;
