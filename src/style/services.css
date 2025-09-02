@@ -1,0 +1,46 @@
+@import "./variables.css";
+@import "./button.css";
+
+
+.our-section {
+  position: relative;
+  width: 100%;
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 50px;
+}
+.our-section::after {
+  content: "";
+  background-image: url("/image/hero-2.png") ;
+  position: absolute;
+  margin: 0 70px;
+  background-size: calc(1370px);
+  object-fit: contain;
+  inset: 0;
+}
+.our-section .content {
+  position: relative;
+  color: var(--color-text);
+  width: 600px;
+  padding: 65px;
+  z-index: 2;
+}
+.our-section h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.our-section p {
+  font-size: var(--fs-md);
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+.our-section .btn {
+  background: var(--color-primary);
+  border-radius: var(--radius-sm);
+}
+.our-section .btn:hover {
+  background: var(--color-primary-dark);
+}

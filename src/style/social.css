@@ -1,0 +1,31 @@
+@import "../style/variables.css";
+@import "../style/button.css";
+@import "../style/button.css";
+
+
+.social-follow {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  padding-bottom: 40px;
+}
+.social-follow-x {
+  display: flex;
+  gap: 15px;
+  font-size: var(--fs-md);
+}
+.social-follow .text {
+  margin-left: 10px;
+  font-weight: 500;
+}
+.backtotop {
+  background-color: rgb(203, 200, 200);
+  text-decoration: none;
+  color: var(--color-text);
+  padding: 10px 15px;
+  font-size: var(--fs-md);
+}
+.backtotop:hover {
+  background-color: var(--color-bg);
+  box-shadow: var(--shadow-sm);
+}

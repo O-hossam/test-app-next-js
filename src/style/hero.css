@@ -1,0 +1,31 @@
+@import "./variables.css";
+@import "./button.css";
+
+
+.hero {
+  background: url("/image/download.png") center/cover no-repeat;
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-align: start;
+}
+.hero__content {
+  width: 40%;
+  margin: 50px;
+  padding: var(--spacing-lg);
+  line-height: 55px;
+}
+.hero__title {
+  font-size: var(--fs-lg);
+  margin-bottom: var(--spacing-sm);
+}
+.hero__subtitle {
+  font-size: var(--fs-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.icons {
+  margin-left: 10px;
+  margin-right: 10px;
+}

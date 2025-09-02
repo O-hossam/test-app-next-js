@@ -1,0 +1,61 @@
+@import "./variables.css";
+@import "./button.css";
+
+
+
+.section {
+  padding: 48px 0;
+  width: 106%;
+  max-width: 1337px;
+  margin: 0 auto;
+}
+.section__title {
+  font-size: 35px;
+  margin-bottom: 24px;
+  font-weight: 700;
+  color: #111;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* Card */
+.card {
+  overflow: hidden;
+  background: var(--color-bg);
+  box-shadow: var(--shadow-md);
+}
+.card__img {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+.card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: space-around;
+  padding: 6px;
+  width: 113%;
+}
+.card__title {
+  font-size: large;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #222;
+}
+.card__desc {
+  font-size: 15px;
+  color: var(--color-muted);
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+.card__actions {
+  display: flex;
+  justify-content: start;
+  margin: 20px;
+}
